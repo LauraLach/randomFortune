@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #F3C96C;
+  color: #8D38C8;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+}
+input, button {
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+}
+button {
+  background-color: #000;
+  color: #F3C96C;
+  border-color: #000;
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+}
