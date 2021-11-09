@@ -31,14 +31,26 @@ function restyle() {
   var randomStyle = Math.floor(Math.random() * 4);
   if (randomStyle == 0) {
     fortuneText.style.fontSize = "20px";
+    fortuneText.style.color = "#8D38C8";
+    fortuneText.style.fontFamily = "sans-serif";
+    fortuneText.style.textDecoration = "none";
   }
   else if (randomStyle == 1) {
     fortuneText.style.color = "#000";
+    fortuneText.style.fontSize = "15px";
+    fortuneText.style.fontFamily = "sans-serif";
+    fortuneText.style.textDecoration = "none";
   }
   else if (randomStyle == 2) {
     fortuneText.style.textDecoration = "line-through";
+    fortuneText.style.fontSize = "15px";
+    fortuneText.style.color = "#8D38C8";
+    fortuneText.style.fontFamily = "sans-serif";
   }
   else {
     fortuneText.style.fontFamily = "serif";
+    fortuneText.style.fontSize = "15px";
+    fortuneText.style.color = "#8D38C8";
+    fortuneText.style.textDecoration = "none";
   }
 }
